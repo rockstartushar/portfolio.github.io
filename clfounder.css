@@ -1,0 +1,195 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 200%;
+}
+#header1 {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+#header1Text {
+  margin: 34px 34px;
+  width: 60%;
+}
+
+#header1Img{
+  width: 40%;
+  text-align: center;
+}
+
+#header1 a img{
+  width: 199px;
+  border: 9px solid white;
+  border-radius: 120px;
+  margin: 49px auto;
+}
+#project {
+  background-color: antiquewhite;
+  padding: 10% 5%;
+  text-align: center;
+  display: none;
+}
+#project section {
+  background: aliceblue;
+}
+.hrStyle {
+  width: 10%;
+  margin: 10px 45% 45px 45%;
+  border: 5px solid forestgreen;
+  border-radius: 30px;
+  outline: orange;
+  color: orange;
+}
+.webproCard {
+  width: 30%;
+  margin: 15px auto;
+  padding: 25px 25px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.webproCard img {
+  width: 100%;
+  opacity: 0.8;
+}
+#main {
+  display: grid;
+  background: red;
+  grid: auto auto / auto auto;
+  grid-gap: 4%;
+  align-items: center;
+  padding: 17%;
+}
+.mainCards {
+  border-radius: 35px;
+  background-color: grey;
+  width: 100%;
+  padding: 200px 0px;
+  text-align: center;
+  font-size: 80%;
+}
+.mainCards img{
+  width: 20%;  
+}
+
+footer {
+  background-color: brown;
+  text-align: center;
+  padding: 20px;
+}
+
+#back-area {
+  display: none;
+  float: right;
+  margin: 1px 55px;
+}
+#back-area img {
+  width: 100px;
+}
+
+#myself {
+  padding: 25px 50px;
+  background-color: antiquewhite;
+  display: none;
+}
+
+#myself ul{
+  list-style: decimal;
+  padding: 5px 3%;
+}
+#contact {
+  text-align: center;
+  background-color: antiquewhite;
+}
+#contact div div{
+  border-radius: 90px;
+  padding: 3%;
+  margin: 20px 44%;
+  background-color: pink;
+  width: 3%;
+  text-align: center;
+}
+#contact div div img {
+  width: 90%;
+}
+
+@media only screen and (max-width: 720px) {
+
+  body {
+    font-size: 100%;
+  }
+
+  #header1 a img{
+    width: 50%;
+    border: 5px solid white;
+  }
+  #project {
+    background-color: antiquewhite;
+    padding: 14% 5%;
+    text-align: center;
+  }
+  #project section {
+    background: aliceblue;
+  }
+  .hrStyle {
+    width: 10%;
+    margin: 10px 45% 45px 45%;
+    border: 5px solid forestgreen;
+    border-radius: 30px;
+    outline: orange;
+    color: orange;
+  }
+  .webproCard {
+    width: 30%;
+    margin: 15px auto;
+    padding: 25px 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  .webproCard img {
+    width: 100%;
+    opacity: 0.8;
+  }
+  #main {
+    display: grid;
+    background: red;
+    grid: auto auto / auto auto;
+    grid-gap: 4%;
+    align-items: center;
+    padding: 17%;
+  }
+  .mainCards {
+    padding: 100px 0px;
+  }
+  .mainCards img{
+    width: 50px;
+  }
+  footer {
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+  }
+  #back-area {
+    margin: 1px 20px;
+  }
+  #back-area img {
+    width: 40px;
+  }
+  #contact div div{
+    border-radius: 190px;
+    padding: 4%;
+    width: 4%;
+  }
+  #contact div div img {
+    width: 120%;
+  }
+}
